@@ -1,12 +1,12 @@
 /* Set default font family, background color, and text color */
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: #5399e9;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Arial, sans-serif;
+  background-color: rgba(97, 99, 101, 0.49);;
+  font-family:"Times New Roman", Times, serif;
   
   background-size: cover;
   position:relative;
-  color: #f7eeee;
+  color: #12111185;
   overflow-y: hidden;
   z-index: 2;
 }
@@ -16,31 +16,31 @@ body {
 /* Center the main heading and add margin at the top */
 #heading {
 color: 
-#000707;
-margin-left: .2em;
-font-size: 8em;
+rgb(15, 15, 16);
+margin-left: .7em;
+font-size: 7em;
 font-weight: bolder;
 position: fixed;
-margin-top: .2em;
+margin-top: .5em;
 
 }
 
 
 /* Style the form container */
 form {
-  max-width: 800px;
-  margin-left: 50em;
+  max-width: 600px;
+  margin-left: 52em;
   margin-top: 1em;
   /* From https://css.glass */
-  background: rgba(250, 252, 246, 0.897);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2.7px);
   -webkit-backdrop-filter: blur(2.7px);
-  border: 1px solid rgba(255, 255, 255, 0.03);
+  border: 2px solid rgba(9, 9, 9, 0.03);
   padding: 20px;
   /* border-radius: 10px; */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(23, 23, 23, 0.2);
   position: relative;
 }
 
@@ -49,7 +49,7 @@ label {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
-  color: #00000e;
+  color: #090909;
 }
 
 /* Style text inputs and text areas */
@@ -58,32 +58,32 @@ textarea {
   width: 95%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #767a7d;
+  border: 1px solid #101011;
   border-radius: 5px;
   font-size: 16px;
-  color: #1d1b1b;
+  color: #161515;
   background: rgba(187, 179, 179, 0.1);
 }
 
   /* Style text inputs and text areas */
-   #subject{
+  #subject{
     width: 89%;
     padding: 10px;
     margin-bottom:-1em;
-    border: 1px solid #767a7d;
+    border: 1px solid #080808;
     border-radius: 5px;
     font-size: 16px;
-    color: #766f6f;
+    color: #171616;
     z-index: 22;
     position: absolute;
     
-    background: rgba(187, 179, 179, 0.1);
+    background: rgba(8, 8, 8, 0.1);
   }
 
 /* Style file input */
 input[type="file"] {
   margin-bottom: 12px;
-  color: #393E41;
+  color: #141414;
   
 }
 
@@ -92,11 +92,11 @@ input[type="button"] {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #C5C3C6;
+  background-color: rgb(77, 94, 94);
   
   border: none;
   border-radius: 5px;
-  color: #393E41;
+  color: #121313;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -104,8 +104,8 @@ input[type="button"] {
 
 /* Style submit button on hover */
 input[type="button"]:hover {
-  color: #e6e6e6;
-  background-color:#65696d;
+  color: #100f0f;
+  background-color:rgb(219, 228, 238);
   
 }
 
@@ -122,31 +122,31 @@ input[type="button"]:hover {
 #validEmails p,
 #invalidEmails p {
   font-weight: bold;
-  color: #050505;
+  color: #0b0b0b;
 }
 
 
 /* Style divs within container for valid and invalid emails */
 #validEmails div {
-color: #080808;
+ color: #17191a;
 }
 
 #invalidEmails div {
-color: #0d0d0e;
+ color: #1b1d1f;
 }
 
 #message{
-  color:#070707;
+  color:#0f1011;
 }
 #senderEmail{
-  color:#0c0c0c;
+  color:#0f0f0f;
 }
 
 /* Style text inputs and text areas */
 input[type="email"]:focus,
 textarea:focus {
   outline: none !important;
-  border-color: #393d40;
+  border-color: #101010;
  
 }
 #validEmails, #invalidEmails {
@@ -156,16 +156,16 @@ textarea:focus {
 
 
 .img1{
-height:300px; 
+height:250px; 
 margin-top: -15em;
 position: fixed;
 }
 
 .img2{
 height:200px;
-margin-top:-15.8em;
+margin-top:-23em;
 position: absolute;
-margin-left: 15em;
+margin-left: 13.3em;
 }
 
 h1,h2 {
@@ -178,8 +178,7 @@ margin-left:14em ;
 }
 h1 { font-size: 18px; }
 h2 {
-color: #888;
+color: #161515;
 font-size: 18px;
 }
-
 
